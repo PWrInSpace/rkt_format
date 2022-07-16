@@ -1,5 +1,5 @@
 # RockSim 10's RKT format specification reader
-A small command-line utility for .RKT files to a more readable C-style file. Known issues:
+A small command-line utility for converting the spec of .RKT files to a more readable, C-style file. Known issues:
 - some names use '-' as separator which makes the output not really a C header
 - some data types are not specified (`Q3ValueVector<int>`, `CEngine`...)
 
